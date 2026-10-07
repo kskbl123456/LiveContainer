@@ -41,7 +41,9 @@ mv ./tmp/SideStoreSupport.framework Payload/LiveContainer.app/Frameworks
 
 # download SideStore
 cd tmp
-wget https://github.com/LiveContainer/SideStore/releases/download/nightly/SideStore.ipa
+# ↓↓↓ 已改成你自己的 SideStore 地址（不要改动这一行）↓↓↓
+wget https://github.com/kskbl123456/SideStore/releases/download/nightly/SideStore.ipa
+# ↑↑↑ 已改成你自己的 SideStore 地址 ↑↑↑
 unzip SideStore.ipa
 cd ..
 
